@@ -2,8 +2,8 @@
 
 /**
  * Dotenv env文件解析
- * \CjsEnv\EnvLoader(目录);
- * Loads a `.env` file in the given directory and sets the environment vars
+ * 
+ * \CjsEnv\EnvLoader::load(目录);
  */
 class EnvLoader
 {
