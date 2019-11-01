@@ -163,7 +163,7 @@ class EnvLoader
     {
         $value = trim($value);
         if (!$value) {
-            return '';
+            return $value;
         }
         if (strpbrk($value[0], '"\'') !== false) { // value starts with a quote
             $quote = $value[0];
